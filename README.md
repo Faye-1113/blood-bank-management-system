@@ -74,7 +74,7 @@ Do not upload your real database password to GitHub.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/blood-bank-management-system.git
+git clone https://github.com/Faye-1113/blood-bank-management-system.git
 ```
 
 2. Open the project in a Java IDE.
