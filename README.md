@@ -45,3 +45,46 @@ The system contains the following modules:
 ## Database
 
 The project uses a MySQL database named `bloodbankmanagementsystem`.
+
+## Requirements
+
+Before running the project, install:
+
+- Java Development Kit (JDK)
+- MySQL Server
+- MySQL Connector/J
+- An IDE such as IntelliJ IDEA, Eclipse, or NetBeans
+
+Navicat or MySQL Workbench may be used to manage the database.
+
+## Configuration
+
+Update the database configuration in the Java connection class:
+
+```java
+String url = "jdbc:mysql://localhost:3306/bloodbankmanagementsystem";
+String username = "root";
+String password = "YOUR_MYSQL_PASSWORD";
+```
+
+Do not upload your real database password to GitHub.
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/blood-bank-management-system.git
+```
+
+2. Open the project in a Java IDE.
+3. Create the MySQL database:
+
+```sql
+CREATE DATABASE bloodbankmanagementsystem;
+```
+
+4. Import the provided SQL database file.
+5. Add MySQL Connector/J to the project dependencies.
+6. Update the database username and password.
+7. Run the `Main.java` class.
